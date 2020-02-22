@@ -1,0 +1,74 @@
+* check american solar challenge hardware ;)
+  http://americansolarchallenge.org/the-competition/ascfsgp-2016-teams/
+  http://sinovoltaics.com/technology/stella-lux-winner-of-world-solar-challenge-visits-shanghai/
+
+* battery
+  3000W - 71 amp
+
+  https://eu.nkon.nl/checkout/onepage/
+  10S4P
+
+  make sure to buy heat shrink and strips and isolators!
+
+  https://www.electric-skateboard.builders/t/making-a-trampa-hs11-flexible-battery-for-eboosted-enclosure/57445
+
+  https://www.electricbike.com/introduction-battery-design-2/
+
+* suspension
+  https://www.quora.com/What-are-the-types-of-suspension-systems-in-a-vehicle
+
+* chains
+  https://www.parktool.com/blog/repair-help/chain-compatibility
+  https://www.monsterscooterparts.com/trsc/chain-specs/
+
+* electrathon racing
+  https://shop.electric-skateboard.net/diy-tuning/controllers-escs/?p=3
+  https://www.electric-skateboard.builders/t/focbox-max-settings/56570
+  https://lunacycle.com/bafang-bbshd-1000w-middrive-kit/
+  
+* motor
+** evolve motors
+  150kv - 4800 to 6300 Rpm
+  need 250 - 500 rpm in the wheel
+** APS8072 BLDC MOTOR 50KV 6000W CUSTOM
+   https://alienpowersystem.com/shop/brushless-motors/80mm/aps8072-bldc-motor-50kv-6000w-custom/
+
+** APS8055 SENSORED BLDC MOTOR 50KV 4500W
+   https://alienpowersystem.com/shop/brushless-motors/80mm/aps8055-sensored-bldc-motor-50kv-4500w/
+   
+** APS 6374S SENSORED OUTRUNNER BRUSHLESS MOTOR 60KV 2800W
+   https://alienpowersystem.com/shop/brushless-motors/63mm/aps-6374s-sensored-outrunner-brushless-motor-60kv-2800w/
+   
+** APS 6355S SENSORED OUTRUNNER BRUSHLESS MOTOR 50KV 1700W
+   https://alienpowersystem.com/shop/brushless-motors/63mm/aps-6355s-sensored-outrunner-brushless-motor-50kv-1700w/
+
+  https://alienpowersystem.com/shop/brushless-motors/63mm/aps-6355s-sensored-outrunner-brushless-motor-50kv-1700w/
+
+  https://hobbyking.com/en_us/dt6376-14p-sensored-motor-125kv.html
+  https://hobbyking.com/en_us/turnigy-aerodrive-sk3-6374-192kv-brushless-outrunner-motor.html
+
+  https://shop.electric-skateboard.net/diy-tuning/controllers-escs/475/aps-150a-2-12s-evo-3-twin-sensor-esc?c=160
+  https://shop.electric-skateboard.net/diy-tuning/motors/349/aps-brushless-outrunner-motor-6374-170kv-3200w-with-sensor
+  https://shop.electric-skateboard.net/diy-tuning/controllers-escs/468/aps-120a-3-12s-sensor-esc?c=160
+
+* transmition table
+
+| Motor RPM | Pulley1 | Pulley2 | Step1 | Step1 RPM | Cog1 | Cog2 |               Step2 |          Step2 RPM | Speed |
+|-----------+---------+---------+-------+-----------+------+------+---------------------+--------------------+-------|
+|      6000 |      15 |     100 |  0.15 |     900.0 |   24 |   34 |  0.7058823529411765 |  635.2941176470589 |  76.0 |
+|      6000 |      15 |     100 |  0.15 |     900.0 |   12 |   34 | 0.35294117647058826 | 317.64705882352945 |  38.0 |
+|      3000 |      15 |     100 |  0.15 |     450.0 |   24 |   34 |  0.7058823529411765 | 317.64705882352945 |  38.0 |
+|      3000 |      15 |     100 |  0.15 |     450.0 |   12 |   32 |               0.375 |             168.75 |  20.0 |
+|      3000 |      15 |     100 |  0.15 |     450.0 |   12 |   12 |                 1.0 |              450.0 |  54.0 |
+|      3000 |      15 |     100 |  0.15 |     450.0 |   24 |   50 |                0.48 |              216.0 |  26.0 |
+|      3000 |      15 |     100 |  0.15 |     450.0 |   24 |   40 |                 0.6 |              270.0 |  32.0 |
+|      3000 |      15 |     100 |  0.15 |     450.0 |   24 |   36 |  0.6666666666666666 |              300.0 |  36.0 |
+|      3000 |      15 |     100 |  0.15 |     450.0 |   24 |   30 |                 0.8 |              360.0 |  43.0 |
+|      3000 |      15 |     100 |  0.15 |     450.0 |   24 |   20 |                 1.2 |              540.0 |  65.0 |
+|      3000 |      15 |     100 |  0.15 |     450.0 |   22 |   36 |  0.6111111111111112 |              275.0 |  33.0 |
+|      3000 |      20 |     100 |   0.2 |     600.0 |   22 |   34 |  0.6470588235294118 |  388.2352941176471 |  47.0 |
+#+TBLFM: $4='(/ (float $2) $3);N :: $5='(* $1 $4);N :: $8='(/ (float $6) $7);N :: $9='(* $8 $5);N :: $10='(fround (* $9 2 60 0.001));N
+
+* gear hub
+  get shimano alfine or nexus 8 speed shifter (as long as it's 300% shifting range)
+  

@@ -1,0 +1,24 @@
+* Funding
+https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/interested-org-list/31115971
+
+* Batt Table
+
+https://hobbyking.com/en_us/turnigy-nano-tech-5300mah-2s2p-30-60c-hardcase-lipo-pack-roar-approved.html?queryID=&objectID=30795&indexName=hbk_live_magento_en_us_products_hbk_price_stock_7_group_0_asc
+5300mah 2S 30C 160A 32$
+
+https://hobbyking.com/en_us/turnigy-5000mah-4s1p-14-8v-20c-hardcase-pack-1.html?queryID=&objectID=74826&indexName=hbk_live_magento_en_us_products_hbk_price_stock_7_group_0_asc
+5000mAh 4S 20C 100A 34$ 
+
+
+| Price | S | Capacity |  C | N/Cell |   A | Cell Price |    V |   Wh | $ Per Wh | Weight | Weight/Wh |
+|-------+---+----------+----+--------+-----+------------+------+------+----------+--------+-----------|
+|    32 | 2 |     5300 | 30 |   10.0 | 159 |      320.0 |  8.4 | 42.0 |    0.762 |    271 |       6.5 |
+|    34 | 4 |     5000 | 20 |    5.0 | 100 |      170.0 | 16.8 | 84.0 |    0.405 |    576 |       6.9 |
+|   4.2 | 1 |     3000 | 10 |   20.0 |  30 |       84.0 |  4.2 | 12.6 |    0.333 |     46 |       3.7 |
+#+TBLFM: $5='(/ 20.0 $2);N :: $6='(/ (* $3 $4) 1000);N :: $7='(* $5 $1);N :: $8='(* $2 4.2);N :: $9='(/ (fround (* 10 $8 (/ $3 1000))) 10.0);N :: $10='(/ (fround (* (/ $1 $9 ) 1000)) 1000.0);N :: $12='(/ (fround (* (/ $11 $9) 10)) 10.0);N
+
+* Speed controller
+  maytech?
+
+  190$ 200A 12S/50V
+  https://maytech.cn/collections/speed-controllers/products/maytech-200a-vesc6-0-based-speed-controller-with-anti-spark-switch-for-electric-skateboard-mountainbaord?variant=28583516143680
